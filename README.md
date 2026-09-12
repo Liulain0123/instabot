@@ -1,4 +1,5 @@
-# 📸 InstaBot - Instagram Reels 預覽機器人 (開源版)
+# 📸 InstaBot - Instagram Reels 預覽機器人
+
 
 InstaBot 是一個精簡且高效的 Discord 機器人，專為 **Instagram Reels** 的快速預覽而設計。它能將 IG Reels 影片直接下載並上傳至 Discord 頻道，讓使用者無需跳轉頁面即可觀看。
 
