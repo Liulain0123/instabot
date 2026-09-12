@@ -102,7 +102,7 @@ async def download_video(url, filename):
 async def ig_preview(interaction: discord.Interaction, url: str):
     await interaction.response.defer()
     normalized_url = normalize_ig_url(url)
-    media_url, ext, caption = await asyncio.to_//thread(get_ig_info, normalized_url)
+    media_url, ext, caption = await asyncio.to_thread(get_ig_info, normalized_url)
     text_content = f"{caption}\n\n[點擊查看原貼文]({normalized_url})" if caption else f"[點擊查看原貼文]({normalized_url})"
     if media_url:
         if ext in ['mp4', 'm4v', 'mov'] or 'video' in media_url:
