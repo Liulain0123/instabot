@@ -1,4 +1,4 @@
-# 📸 InstaBot - Instagram 預覽機器人 (開源版)
+# 📸 InstaBot - Instagram 預覽機器人
 
 InstaBot 是一個簡單而高效的 Discord 機器人，專門用於在 Discord 頻道中快速預覽 Instagram 的貼文與 Reels。
 
